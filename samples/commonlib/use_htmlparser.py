@@ -28,7 +28,7 @@ class MyHTMLParser(HTMLParser):
         print('&#%s;' % name)
 
 parser = MyHTMLParser()
-parser.feed('''<html>
+parser.feed('''<html>#AttributeError: 'MyHTMLParser' object has no attribute 'feed'
 <head></head>
 <body>
 <!-- test html parser -->
